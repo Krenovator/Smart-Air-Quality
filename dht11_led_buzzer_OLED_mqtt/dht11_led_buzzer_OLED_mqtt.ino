@@ -43,15 +43,16 @@ int ledR = 12;
 
 /************************* WiFi Access Point *********************************/
 
-#define WLAN_SSID       "WorstGeneration"  //Remote Year / MyEdTech
-#define WLAN_PASS       "getnewone" //RemoteYearKL / myedtechpnt
+#define WLAN_SSID       "Your Wifi Name"      //enter your home or office wifi name
+#define WLAN_PASS       "Your Wifi Password"  //The password
+
 
 /************************* Adafruit.io Setup *********************************/
 
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                   // use 8883 for SSL
-#define AIO_USERNAME    "MZulsyahmi"
-#define AIO_KEY         "5c68e28fe63c4ecdb90be1dd0b2a806a"
+#define AIO_USERNAME    "Adafruit Username"
+#define AIO_KEY         "The AIO Keys"
 
 /************ Global State (you don't need to change this!) ******************/
 

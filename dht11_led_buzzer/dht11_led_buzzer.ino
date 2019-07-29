@@ -50,21 +50,21 @@ void loop() {
   Serial.println(h);                //recall the humidity
 
   /*condition that needed to be met*/
-  if(t==24){
+  if(t<24){
     digitalWrite(ledG,HIGH);
     digitalWrite(ledY,LOW);
     digitalWrite(ledR,LOW);
     digitalWrite(buzzer,LOW);
   }
 
-  else if(t==25){
+  else if(t>=24 && t<=26){
     digitalWrite(ledG,LOW);
     digitalWrite(ledY,HIGH);
     digitalWrite(ledR,LOW);
     digitalWrite(buzzer,LOW);
   }
 
-  else if(t>25){
+  else if(t>26){
     digitalWrite(ledG,LOW);
     digitalWrite(ledY,LOW);
     digitalWrite(ledR,HIGH);
